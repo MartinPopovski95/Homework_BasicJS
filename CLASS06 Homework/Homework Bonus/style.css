@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px, auto;
+}
+
+table, caption, th, td {
+    border: 1px solid #333;
+}
+
+caption, th, td {
+    padding: 10px;
+    /* text-align: left; */
+}
+
+caption {
+    background-color: #88888894;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+th {
+    background-color: #dad7e9;
+}
