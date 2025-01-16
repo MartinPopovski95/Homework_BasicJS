@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hangman</title>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="heading">
+				<h1>Hangman</h1>
+				<h2>The Classic Word-Guessing Adventure</h2>
+			</div>
+			<div class="wrong-guesses">
+				Wrong Guesses: <span id="mistakes">0</span> of
+				<span id="maxWrong"></span>
+			</div>
+
+			<div class="hangman-box-img">
+				<img
+					id="hangmanImage"
+					src="assets/images/hangman-0.svg"
+					alt="Hangman Image" />
+			</div>
+
+			<div class="options-buttons-container">
+				<button id="movies-btn">Movies</button>
+				<button id="tv-shows-btn">TV Shows</button>
+				<button id="games-btn">Games</button>
+			</div>
+
+			<div class="word-display" id="wordDisplay"></div>
+			<div id="btn-container"></div>
+
+			<button id="resetBtn">Play again</button>
+		</div>
+		<script src="hangman.js"></script>
+	</body>
+</html>
